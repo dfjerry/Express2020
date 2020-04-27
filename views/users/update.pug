@@ -1,0 +1,8 @@
+h2 Update name
+form(action="/users/update", method="POST")
+    .form-group
+        lable New title:
+        br
+        input.form-control(type="hidden", name="id", value=id)
+        input.form-control(type="text", name="name")
+        button Update

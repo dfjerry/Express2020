@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "thang",
+      "id": "vJYb45-Dh"
+    },
+    {
+      "name": "hien teuk",
+      "phone": "123123",
+      "id": "jOCLO_2BC",
+      "email": "hien@123",
+      "password": "123456",
+      "isAdmin": true
+    },
+    {
+      "name": "thang",
+      "phone": "321321",
+      "id": "KyLis-yoR",
+      "email": "hien@1238",
+      "password": "hien456",
+      "isAdmin": false
+    },
+    {
+      "name": "hien teuk",
+      "phone": "32132132",
+      "id": "wKOp1M7cD",
+      "email": "hien1237",
+      "password": "hien456",
+      "isAdmin": false
+    },
+    {
+      "name": "hien teuk",
+      "phone": "123",
+      "id": "glxeITjLJ",
+      "email": "hien1236",
+      "password": "hien456",
+      "isAdmin": false
+    },
+    {
+      "name": "hien teuk312",
+      "phone": "0969677265",
+      "id": "iQl1BdHNL",
+      "email": "hien1234",
+      "password": "hien456",
+      "isAdmin": false
+    }
+  ]
+}
