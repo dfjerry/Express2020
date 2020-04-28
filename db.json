@@ -9,7 +9,7 @@
       "phone": "123123",
       "id": "jOCLO_2BC",
       "email": "hien@123",
-      "password": "123456",
+      "password": "6ac1e56bc78f031059be7be854522c4c",
       "isAdmin": true
     },
     {
@@ -18,7 +18,8 @@
       "id": "KyLis-yoR",
       "email": "hien@1238",
       "password": "hien456",
-      "isAdmin": false
+      "isAdmin": false,
+      "wrongLoginCount": 1
     },
     {
       "name": "hien teuk",
@@ -26,7 +27,8 @@
       "id": "wKOp1M7cD",
       "email": "hien1237",
       "password": "hien456",
-      "isAdmin": false
+      "isAdmin": false,
+      "wrongLoginCount": 0
     },
     {
       "name": "hien teuk",
