@@ -1,9 +1,19 @@
+var sgMail = require('@sendgrid/mail');
+require('dotenv').config();//reqquire cang som cang tot de load file som
 var db = require('../db');//require db
 var md5 = require('md5');
 module.exports.login = function (req, res) {//req: request, res: response
     res.render("auth/login");
 };
 
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+var msg = {
+    to: 'tuanntth1906027@fpt.edu.vn',
+    from: 'tuantuna955@gmail.com',
+    subject: 'Sending with Twilio SendGrid is Fun',
+    text: 'and easy to do anywhere, even with Node.js',
+    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+};
 module.exports.postLogin = function (req, res) {
     var email = req.body.email; // lay email o post request
     var password = req.body.password;
@@ -42,6 +52,7 @@ module.exports.postLogin = function (req, res) {
             ],
             values: req.body //de ng dung dien gi thi van luu o input
         });
+        sgMai.send(msg);
         return;
     }
     //trc khi redirect sang users thi set 1 cai cookie
